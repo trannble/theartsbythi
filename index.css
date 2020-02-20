@@ -1,0 +1,120 @@
+/* style of the header of every page */
+#theartsbythi {
+    font-family: 'Kalam', cursive;
+    font-weight: lighter;
+    font-size: 4vw;
+    padding-right: 0.2vw;
+}
+
+#container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 0.5vw;
+    padding-left: 0.5vw;
+    padding-right: 0.5vw;
+
+}
+
+#pagetitle {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 4vw;
+}
+
+#subtitle {
+    font-family: 'Arima Madurai', cursive;
+    font-size: 2vw;
+    text-align: center;
+}
+
+#email {
+    font-family: 'Arima Madurai', cursive;
+    font-size: 1.5vw;
+    text-align: center;
+    padding-top: 0.05vw;    
+    /* need to decrease the padding */
+}
+
+
+/* style for the image portfolio */
+.images {
+    display: flex;
+    width: 55vw;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: auto;
+    margin-bottom: 3vw;
+}
+
+.images img {
+    height: 30vw;
+    width: 25vw;
+    margin: 2vw;
+}
+
+/* navigation bar */
+.navbar {
+    font-family: 'Source Code Pro', monospace;
+    display: flex;
+    justify-content: center;
+    font-size: 2.5vw;
+    margin: auto;
+    width: 55vw;
+}
+ .navbar a:first-child {
+    margin-right: 2vw;
+ }
+
+a:link, a:visited {
+    background-color: #CCADA7;
+    color: white;
+    padding: 0.01vw 0.1vw;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  a:hover, a:active {
+    background-color:#c79b91;
+  }
+
+/* services style */
+#servicetitle {
+    padding-top: 5vw;
+    font-family: 'Arima Madurai', cursive;
+    font-style: bold;    
+    font-size: 3vw;
+    text-align: center;
+}
+
+#servicedescription {
+    font-family: 'Arima Madurai', cursive;
+    font-size: 2vw;
+    text-align: center;
+    margin-left: 15vw;
+    margin-right: 15vw;
+}
+
+/* media style */
+#interview {
+    font-size: 2vw;
+    font-family: 'Arima Madurai', cursive;
+}
+
+#instagram {
+    border-radius: 2vh;
+}
+
+/* footer */
+.footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #b3cee1;
+    color: grey;
+    text-align: center;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 12px;
+  }
+  
