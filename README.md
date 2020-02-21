@@ -1,2 +1,2 @@
 # theartsbythi
-a portfolio for @theartsbythi
+an art portfolio for client: @theartsbythi
